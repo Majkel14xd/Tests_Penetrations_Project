@@ -1,0 +1,19 @@
+### Planowane zadania na Testy Penetracyjne ###
+
+App & system:
+
+1. SHH dictionary
+2. NFS bad config
+3. ~(opcjonalne) podatność systemu np. Windows 7 / Server 2008 (taka co obsługuje metasploit)
+4. ~(opcjonalne) podatność we własnej aplikacji serialization poisoning. (java, python) Wykonanie kodu.
+
+WEB:
+5. XSS (Wordpress)
+6. SQL injection (Wordpress)
+7. CSRF (Michała własne)
+
+opcjonalne:
+8. zwracanie szczegułów w błędize obsługi rządania Rest API kodu 500
+9. wystawione PHPMyAdmin  na zewnątrz (nieoczywiste, czyli hasło do root, ale inny user bez logowania i można na nim przeglądć wszystkie lub kilka ważnych baz danych).
+10. Błąd konfiguracji Apache pod kątem Wordpress'a.
+11. Podatność Path traversal np. w FTP, albo własna stronka w PHP.
