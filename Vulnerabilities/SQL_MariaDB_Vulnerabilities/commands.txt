@@ -1,0 +1,11 @@
+nmap --script mysql-brute -p 3306 192.168.131.129
+nmap -p 3306 127.0.0.1
+nmap --script mysql-brute --script-args userdb=users.txt,passdb=passwords.txt -p 3306 192.168.131.129
+nmap -sV --script=mysql-databases --script-args "mysqluser=admin,mysqlpass= " 192.168.131.129
+
+
+sudo nano /etc/mysql/mariadb.conf.d/50-server.conf
+bind-address            = 0.0.0.0
+
+in config phpmyadmin
+$cfg['Servers'][$i]['AllowNoPassword'] = true;

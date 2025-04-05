@@ -49,6 +49,9 @@ def add_produkt(nazwa, cena):
 
 @produkty_bp.route('/produkty', methods=['GET', 'POST'])
 def produkty():
+    if 'user_id' not in session:
+        return redirect(url_for('login.login')) 
+    
     search_query = request.args.get('search', '')
     page = int(request.args.get('page', 1))
     produkty = get_produkty(search_query, per_page=8, page=page)

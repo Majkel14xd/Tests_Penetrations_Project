@@ -1,0 +1,19 @@
+Connecting to host 192.168.100.69, port 5201
+[  5] local 192.168.100.117 port 62593 connected to 192.168.100.69 port 5201
+[ ID] Interval           Transfer     Bitrate
+[  5]   0.00-1.01   sec   119 MBytes   981 Mbits/sec                  
+[  5]   1.01-2.01   sec   112 MBytes   948 Mbits/sec                  
+[  5]   2.01-3.00   sec   113 MBytes   950 Mbits/sec                  
+[  5]   3.00-4.00   sec   113 MBytes   949 Mbits/sec                  
+[  5]   4.00-5.01   sec   114 MBytes   949 Mbits/sec                  
+[  5]   5.01-6.00   sec   113 MBytes   950 Mbits/sec                  
+[  5]   6.00-7.00   sec   113 MBytes   949 Mbits/sec                  
+[  5]   7.00-8.01   sec   114 MBytes   950 Mbits/sec                  
+[  5]   8.01-9.00   sec   112 MBytes   950 Mbits/sec                  
+[  5]   9.00-10.01  sec   114 MBytes   948 Mbits/sec                  
+- - - - - - - - - - - - - - - - - - - - - - - - -
+[ ID] Interval           Transfer     Bitrate
+[  5]   0.00-10.01  sec  1.11 GBytes   952 Mbits/sec                  sender
+[  5]   0.00-10.01  sec  1.11 GBytes   949 Mbits/sec                  receiver
+
+iperf Done.
