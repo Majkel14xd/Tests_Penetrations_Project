@@ -17,3 +17,12 @@ opcjonalne:
 9. wystawione PHPMyAdmin  na zewnątrz (nieoczywiste, czyli hasło do root, ale inny user bez logowania i można na nim przeglądć wszystkie lub kilka ważnych baz danych).
 10. Błąd konfiguracji Apache pod kątem Wordpress'a.
 11. Podatność Path traversal np. w FTP, albo własna stronka w PHP.
+
+Zaplanowane:
+1. CSRF [Michał].
+2. Path Traversal (w wordpress) [Dawid].
+3. Błędna konfiguracja w wordpress .htaccess i apache2.conf.
+4. Zła konfiguracja bazy danych. Otwarty port i niepoprawna konfiguracja użytkownika.
+5. Niebezpieczna deserializacja python.
+6. Niepoprawna konfiguracja NFS na Linux.
+7. Active Directory on Windows Server 2012 R2 SMB ms17 attack.
