@@ -19,10 +19,10 @@ opcjonalne:
 11. Podatność Path traversal np. w FTP, albo własna stronka w PHP.
 
 Zaplanowane:
-1. CSRF [Michał].
+1. CSRF [Michał Lidwa].
 2. Path Traversal (w wordpress) [Dawid].
-3. Błędna konfiguracja w wordpress .htaccess i apache2.conf.
-4. Zła konfiguracja bazy danych. Otwarty port i niepoprawna konfiguracja użytkownika.
-5. Niebezpieczna deserializacja python.
-6. Niepoprawna konfiguracja NFS na Linux.
-7. Active Directory on Windows Server 2012 R2 SMB ms17 attack.
+3. Błędna konfiguracja w wordpress .htaccess i apache2.conf. [Michał Krupa]
+4. Zła konfiguracja bazy danych. Otwarty port i niepoprawna konfiguracja użytkownika. [Robert]
+5. Niebezpieczna deserializacja python. [Kacper]
+6. Niepoprawna konfiguracja NFS na Linux. [Jakub]
+7. Active Directory on Windows Server 2012 R2 SMB (samba) ms17 attack.
