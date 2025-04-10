@@ -1,7 +1,7 @@
-nmap --script mysql-brute -p 3306 192.168.131.129
+nmap --script mysql-brute -p 3306 192.168.41.128 
 nmap -p 3306 127.0.0.1
-nmap --script mysql-brute --script-args userdb=users.txt,passdb=passwords.txt -p 3306 192.168.131.129
-nmap -sV --script=mysql-databases --script-args "mysqluser=admin,mysqlpass= " 192.168.131.129
+nmap --script mysql-brute --script-args userdb=users.txt,passdb=passwords.txt -p 3306 192.168.41.128 
+nmap -sV --script=mysql-databases --script-args "mysqluser=admin,mysqlpass= " 192.168.41.128 
 
 
 sudo nano /etc/mysql/mariadb.conf.d/50-server.conf

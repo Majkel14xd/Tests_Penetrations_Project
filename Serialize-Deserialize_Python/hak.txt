@@ -1,19 +1,117 @@
-Connecting to host 192.168.100.69, port 5201
-[  5] local 192.168.100.117 port 62593 connected to 192.168.100.69 port 5201
-[ ID] Interval           Transfer     Bitrate
-[  5]   0.00-1.01   sec   119 MBytes   981 Mbits/sec                  
-[  5]   1.01-2.01   sec   112 MBytes   948 Mbits/sec                  
-[  5]   2.01-3.00   sec   113 MBytes   950 Mbits/sec                  
-[  5]   3.00-4.00   sec   113 MBytes   949 Mbits/sec                  
-[  5]   4.00-5.01   sec   114 MBytes   949 Mbits/sec                  
-[  5]   5.01-6.00   sec   113 MBytes   950 Mbits/sec                  
-[  5]   6.00-7.00   sec   113 MBytes   949 Mbits/sec                  
-[  5]   7.00-8.01   sec   114 MBytes   950 Mbits/sec                  
-[  5]   8.01-9.00   sec   112 MBytes   950 Mbits/sec                  
-[  5]   9.00-10.01  sec   114 MBytes   948 Mbits/sec                  
-- - - - - - - - - - - - - - - - - - - - - - - - -
-[ ID] Interval           Transfer     Bitrate
-[  5]   0.00-10.01  sec  1.11 GBytes   952 Mbits/sec                  sender
-[  5]   0.00-10.01  sec  1.11 GBytes   949 Mbits/sec                  receiver
 
-iperf Done.
+Windows IP Configuration
+
+   Host Name . . . . . . . . . . . . : DESKTOP-2V1BHVD
+   Primary Dns Suffix  . . . . . . . : 
+   Node Type . . . . . . . . . . . . : Hybrid
+   IP Routing Enabled. . . . . . . . : No
+   WINS Proxy Enabled. . . . . . . . : No
+
+Unknown adapter Tailscale:
+
+   Connection-specific DNS Suffix  . : 
+   Description . . . . . . . . . . . : Tailscale Tunnel
+   Physical Address. . . . . . . . . : 
+   DHCP Enabled. . . . . . . . . . . : No
+   Autoconfiguration Enabled . . . . : Yes
+   Link-local IPv6 Address . . . . . : fe80::25bc:c785:2b58:928a%8(Preferred) 
+   Autoconfiguration IPv4 Address. . : 169.254.83.107(Preferred) 
+   Subnet Mask . . . . . . . . . . . : 255.255.0.0
+   Default Gateway . . . . . . . . . : 
+   NetBIOS over Tcpip. . . . . . . . : Disabled
+
+Ethernet adapter Ethernet:
+
+   Connection-specific DNS Suffix  . : 
+   Description . . . . . . . . . . . : Intel(R) Ethernet Connection (4) I219-V
+   Physical Address. . . . . . . . . : E8-6A-64-52-41-23
+   DHCP Enabled. . . . . . . . . . . : Yes
+   Autoconfiguration Enabled . . . . : Yes
+   IPv4 Address. . . . . . . . . . . : 10.0.0.2(Preferred) 
+   Subnet Mask . . . . . . . . . . . : 255.255.255.0
+   Lease Obtained. . . . . . . . . . : czwartek, 10 kwietnia 2025 11:13:46
+   Lease Expires . . . . . . . . . . : pi¥tek, 11 kwietnia 2025 11:13:40
+   Default Gateway . . . . . . . . . : 10.0.0.1
+   DHCP Server . . . . . . . . . . . : 10.0.0.1
+   DNS Servers . . . . . . . . . . . : 94.140.14.14
+                                       94.140.15.15
+   NetBIOS over Tcpip. . . . . . . . : Enabled
+
+Wireless LAN adapter Wi-Fi:
+
+   Media State . . . . . . . . . . . : Media disconnected
+   Connection-specific DNS Suffix  . : tu.kielce.pl
+   Description . . . . . . . . . . . : Intel(R) Dual Band Wireless-AC 8265
+   Physical Address. . . . . . . . . : 1C-1B-B5-71-D9-FF
+   DHCP Enabled. . . . . . . . . . . : Yes
+   Autoconfiguration Enabled . . . . : Yes
+
+Wireless LAN adapter Poˆ¥czenie lokalne* 1:
+
+   Media State . . . . . . . . . . . : Media disconnected
+   Connection-specific DNS Suffix  . : 
+   Description . . . . . . . . . . . : Microsoft Wi-Fi Direct Virtual Adapter
+   Physical Address. . . . . . . . . : 1C-1B-B5-71-D9-00
+   DHCP Enabled. . . . . . . . . . . : Yes
+   Autoconfiguration Enabled . . . . : Yes
+
+Wireless LAN adapter Poˆ¥czenie lokalne* 2:
+
+   Media State . . . . . . . . . . . : Media disconnected
+   Connection-specific DNS Suffix  . : 
+   Description . . . . . . . . . . . : Microsoft Wi-Fi Direct Virtual Adapter #2
+   Physical Address. . . . . . . . . : 1E-1B-B5-71-D9-FF
+   DHCP Enabled. . . . . . . . . . . : No
+   Autoconfiguration Enabled . . . . : Yes
+
+Ethernet adapter VMware Network Adapter VMnet1:
+
+   Connection-specific DNS Suffix  . : 
+   Description . . . . . . . . . . . : VMware Virtual Ethernet Adapter for VMnet1
+   Physical Address. . . . . . . . . : 00-50-56-C0-00-01
+   DHCP Enabled. . . . . . . . . . . : Yes
+   Autoconfiguration Enabled . . . . : Yes
+   Link-local IPv6 Address . . . . . : fe80::6163:fad:9b6b:82ea%23(Preferred) 
+   IPv4 Address. . . . . . . . . . . : 192.168.41.1(Preferred) 
+   Subnet Mask . . . . . . . . . . . : 255.255.255.0
+   Lease Obtained. . . . . . . . . . : czwartek, 10 kwietnia 2025 11:13:46
+   Lease Expires . . . . . . . . . . : czwartek, 10 kwietnia 2025 12:45:06
+   Default Gateway . . . . . . . . . : 
+   DHCP Server . . . . . . . . . . . : 192.168.41.254
+   DHCPv6 IAID . . . . . . . . . . . : 318787670
+   DHCPv6 Client DUID. . . . . . . . : 00-01-00-01-2E-E5-46-CE-E8-6A-64-52-41-23
+   NetBIOS over Tcpip. . . . . . . . : Enabled
+
+Ethernet adapter VMware Network Adapter VMnet8:
+
+   Connection-specific DNS Suffix  . : 
+   Description . . . . . . . . . . . : VMware Virtual Ethernet Adapter for VMnet8
+   Physical Address. . . . . . . . . : 00-50-56-C0-00-08
+   DHCP Enabled. . . . . . . . . . . : Yes
+   Autoconfiguration Enabled . . . . : Yes
+   Link-local IPv6 Address . . . . . : fe80::776e:af52:3b5f:5cea%12(Preferred) 
+   IPv4 Address. . . . . . . . . . . : 192.168.189.1(Preferred) 
+   Subnet Mask . . . . . . . . . . . : 255.255.255.0
+   Lease Obtained. . . . . . . . . . : czwartek, 10 kwietnia 2025 11:13:46
+   Lease Expires . . . . . . . . . . : czwartek, 10 kwietnia 2025 12:45:09
+   Default Gateway . . . . . . . . . : 
+   DHCP Server . . . . . . . . . . . : 192.168.189.254
+   DHCPv6 IAID . . . . . . . . . . . : 469782614
+   DHCPv6 Client DUID. . . . . . . . : 00-01-00-01-2E-E5-46-CE-E8-6A-64-52-41-23
+   Primary WINS Server . . . . . . . : 192.168.189.2
+   NetBIOS over Tcpip. . . . . . . . : Enabled
+
+Ethernet adapter vEthernet (Default Switch):
+
+   Connection-specific DNS Suffix  . : 
+   Description . . . . . . . . . . . : Hyper-V Virtual Ethernet Adapter
+   Physical Address. . . . . . . . . : 00-15-5D-C2-A6-CC
+   DHCP Enabled. . . . . . . . . . . : No
+   Autoconfiguration Enabled . . . . : Yes
+   Link-local IPv6 Address . . . . . : fe80::43f9:1ed7:997a:2836%24(Preferred) 
+   IPv4 Address. . . . . . . . . . . : 172.29.64.1(Preferred) 
+   Subnet Mask . . . . . . . . . . . : 255.255.240.0
+   Default Gateway . . . . . . . . . : 
+   DHCPv6 IAID . . . . . . . . . . . : 402658653
+   DHCPv6 Client DUID. . . . . . . . : 00-01-00-01-2E-E5-46-CE-E8-6A-64-52-41-23
+   NetBIOS over Tcpip. . . . . . . . : Enabled
